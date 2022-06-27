@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<!--
+Author: @HieuDev
+Created at: 2/6/2022 7:45AM
+Email : nghuyhieu2810@mail.folody.xyz
+-->
+<html base href = "dayview.thaoheu.repl.co">
+<html>
+<head>
+  <title>Đẩy view LiveStream Facebook Online dễ dàng</title>
+  <meta name="description" content=
+  "Đẩy view LiveStream Facebook Online dễ dàng ">
+  <meta property="og:title" content=
+  "Đẩy view LiveStream Facebook Online dễ dàng ">
+  <meta property="og:description" content=
+  "Đẩy view LiveStream Facebook Online dễ dàng ">
+  <meta name="referrer" content="no-referrer"><!-- Analytics -->
+
+  <script src="https://browser.sentry-cdn.com/6.4.1/bundle.min.js"
+  integrity=
+  "sha384-THoc7rflwZFKTdZNgv6jLFFDn299Uv3t1SW5B4yGLvLiCRTYP9ys6vXZcMl95TQF"
+  crossorigin="anonymous"></script>
+  <script>
+    Sentry.init({
+        dsn: 'https://e0e6a104cb354a09bf094a90e676ea13@o425163.ingest.sentry.io/5780930',
+        tracesSampleRate: 0.01
+    });
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+
+    ga('create', 'UA-168596379-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <style>
+        .header_blue {
+            background: #1565c0;
+            padding: 80px 0 20px;
+            color: #fff;
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        .header_text {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        body{
+            margin:0;
+            font-family:Roboto, sans-serif;
+            color:#444;
+        }
+        .unlockBtn:hover{
+            box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+        }
+        .unlockBtn {
+            background: #2196f3;
+            border: none;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+            min-height: 31px;
+            min-width: 70px;
+            padding: 2px 16px;
+            text-align: center;
+            text-shadow: none;
+            text-transform: uppercase;
+            -webkit-transition: all 280ms ease;
+            transition: all 280ms ease;
+            box-sizing: border-box;
+            cursor: pointer;
+            -webkit-appearance: none;
+            display: inline-block;
+            vertical-align: middle;
+            font: 500 14px/31px Roboto,sans-serif!important;
+            outline: 0!important;
+            color:white;
+        }
+        .content-container{
+            width:80%;margin:0 auto;
+        }
+        @font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(//fonts.gstatic.com/s/roboto/v15/Pru33qjShpZSmG3z6VYwnRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(//fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(//fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}
+        body{
+  background-image: url("https://d13pxqgp3ixdbh.cloudfront.net/uploads/1614001890627c5db547d0badf04bb355ac862de02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;   
+  font-family: Poppins;
+
+  }
+  h1{
+  font-weight: bold;
+  }
+  .header {
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  color: #474747;
+  box-shadow: 0 0 5px black;
+
+  padding: 15px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  }
+  .text-enter-username{
+  position: relative;
+  color: #474747;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+
+  }
+  .title{
+  text-align: center;
+  width: 100%;
+  margin-top: 120px;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 5px;
+
+  }
+  .usernamebox1{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+  max-width: 600px;
+  width: 90%;
+  height: auto;
+  overflow: auto;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #cfcfcf;
+  margin-bottom: 200px;
+  }
+  .footer{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  }
+  .footer1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  width: 80%;
+  height: 80px;
+  background-color: black;
+  border-radius: 20px;
+  z-index: 1;
+  }
+  .footertext{
+  color:white;
+  margin: 0px;
+
+  }
+  .footerleft{
+  position: fixed;
+  bottom: 20px;
+  width: 80%;
+  margin-left: -30px;
+  height: 100px;
+  background-color: #00f7ef;
+  border-radius: 20px;
+
+  }
+  .footerright{
+  position: fixed;
+  bottom: 20px;
+  width: 80%;
+  margin-right: -30px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  }
+  img.imgtiktok{
+   width:80px;
+  margin-top:10px;
+  }
+  img.imguser{
+  width:100px;
+  top: 10px;
+  padding: 10px;
+  }
+  input{
+  color: #474747;
+  position: relative;
+
+  border: 2px solid #ff2f6f;
+  border-radius: 30px;
+  }
+  input[type=text] {
+
+  width: 250px;
+  box-sizing: border-box;
+  border: 2px solid #3f5c98;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  background-image: url("https://d13pxqgp3ixdbh.cloudfront.net/uploads/161400189251352265d9e1690f404d19d94e33e3e2.png");
+  background-size: 39px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 20px 20px 12px 50px;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 0 4px #3f5c98;
+  }
+
+  input[type=text]:focus {
+  outline: none;
+  width: 400px;
+  box-sizing: border-box;
+  border: 2px solid #ff2f6f;
+  border-radius: 30px;
+  font-size:30px;
+  background-color: white;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 0 4px #00f7ef;
+  }
+  .bntValidate{
+  margin-top: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #3f5c98;
+  box-shadow: 0 0 2px #00c7c0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  position: relative;
+  background-color: #3f5c98;
+  width: 250px;
+  height: 60px;
+  }
+  .bntValidate:hover{
+  box-shadow: 0 0 10px #00c7c0;
+  cursor: pointer;
+  }
+  .line{
+
+  top:180px;
+  height: 2px;
+  width: 80%;
+  background-color:#c4c5c9;
+  }
+
+
+  .packag1:hover{
+  cursor: pointer;
+  animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
+  }
+  .packag2:hover{
+  cursor: pointer;
+  animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
+  }
+  .packag3:hover{
+  cursor: pointer;
+  animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
+  }
+  .packag1{
+  margin-top: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #c2c2c2;
+  height: 120px;
+        width: 90%;
+      background-color: white;
+      text-align: center;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #ebebeb;
+  position: relative;
+
+
+  }
+
+  .selectedpackage{
+  text-align: center;
+  box-shadow: 0 0 10px #c2c2c2;
+      height: 120px;
+      width: 90%;
+      background-color: white;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ebebeb;
+
+  }
+  .packag2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #c2c2c2;
+      height: 120px;
+        width: 90%;
+      background-color: white;
+      text-align: center;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ebebeb;
+  position: relative;
+  }
+  .packag3{
+  text-align: center;
+  box-shadow: 0 0 10px #c2c2c2;
+      height: 120px;
+      width: 90%;
+      background-color: white;
+      text-align: center;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ebebeb;
+  position: relative;
+
+  }
+
+  .cardtext{
+  padding: 0px;
+  margin: 0px;
+  font-weight: bolder;
+  }
+
+  .text-gen{
+   color: #474747;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+  }
+
+
+  .loader{
+  display: none;
+  width:50px;
+  position: relative;
+  padding-top:20px;
+  margin-top: 10px;
+  left: 50%;
+  margin-left: -20px;
+  }
+  .loaderblue{
+  position: absolute;
+  left: 0px;
+  width:20px;
+  height: 20px;
+  background-color:#00f7efbf ;
+  border-radius: 50%;
+  animation-name: loaderblue;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  }
+  .loaderred{
+  position: absolute;
+  left: 20px;
+  width:20px;
+  height: 20px;
+  background-color:#3f5c98;
+  border-radius: 50%;
+  animation-name: loaderred;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  }
+
+  @keyframes loaderblue {
+  0%   {background-color:#00f7efbf; left:0px; top:0px;width:20px;height:20px;z-index: 1;}
+  50% {background-color:#00f7efbf; left:20px; top:0px;width:20px;height:20px;z-index: 1;}
+  75% {background-color:#00f7efbf; left:10px; top:2px;width:15px;height:15px;z-index: 0;}
+  100% {background-color:#00f7efbf; left:0px; top:0px;width:20px;height:20px;z-index: 0;}
+  }
+  @keyframes loaderred {
+  0%   {background-color:#ff2f6fba; left:20px; top:0px;width:20px;height:20px;z-index: 1;}
+  25% {background-color:#ff2f6fba; left:10px; top:2px;width:15px;height:15px;z-index: 0;}
+  50% {background-color:#ff2f6fba; left:0px; top:0px;width:20px;height:20px;z-index: 0;}
+  100% {background-color:#ff2f6fba; left:20px; top:0px;width:20px;height:20px;z-index: 1;}
+  }
+
+
+  @keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+
+
+
+  @media only screen and (max-width:680px) {
+  .text-enter-username{
+    position: relative;
+    color: #474747;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+
+  }
+  .header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #474747;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+   z-index: 1;
+   top: 0;
+   left: 0;
+  }
+
+
+  input[type=text]:focus {
+    outline: none;
+    width: 300px;
+  box-sizing: border-box;
+  border: 2px solid #ff2f6f;
+  border-radius: 30px;
+  font-size:20px;
+  background-color: white;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 0 4px #00f7ef;
+  }
+
+  }
+
+  </style>
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Trình đẩy View LiveStream Facebook </title>
+    <link rel="stylesheet" href=
+    "https://fonts.googleapis.com/css?family=Poppins">
+  </head>
+  <center>
+    <div class="header" id="myHeader">
+      <img src=
+      "https://d13pxqgp3ixdbh.cloudfront.net/uploads/161400189251352265d9e1690f404d19d94e33e3e2.png"
+      style="width:25px"><img src=
+      "https://d13pxqgp3ixdbh.cloudfront.net/uploads/1614002125ef88a8595b4bcd44b3e4dece5cd97f2e.png"
+      style="width:100px">
+      <div class="cardtext">
+        Trình đẩy view
+      </div>
+    </div>
+    <div class="title">
+      Tăng View miễn phí cho LiveStream Facebook của bạn
+    </div>
+    <div class="usernamebox1" id="screen1">
+      <img src=
+      "https://d13pxqgp3ixdbh.cloudfront.net/uploads/16140018926ecd898769ef888805114e5f6349b07c.png"
+      class="imgtiktok">
+      <div class="text-enter-username">
+        Nhập link bài viết LiveStream Facebook của bạn
+      </div><input autocomplete="off" type="text" id=
+      "tiktokinputname" oninput="textinput()" placeholder=
+      "Link LiveStream Facebook ">
+      <center>
+        <div class="bntValidate" onclick="bntValidate()" id=
+        "bntValidate">
+          Đẩy
+        </div>
+      </center>
+      <div class="loader" id="loader">
+        <div class="loaderblue" id="loaderblue"></div>
+        <div class="loaderred" id="loaderred"></div>
+      </div>
+    </div>
+    <div class="usernamebox1" id="screen2" style="display:none;">
+      <img src=
+      "https://d13pxqgp3ixdbh.cloudfront.net/uploads/16140018926ecd898769ef888805114e5f6349b07c.png"
+      class="imguser">
+      <div style=
+      "padding:20px; color: #474747; font-family: Poppins; font-weight: bold; font-size: 20px; padding: 5px;">
+        LiveStream: <span id="username1">cpabuild</span>
+      </div>
+      <center>
+        <div class="line"></div>
+      </center>
+      <div class="text-enter-username">
+        Chọn số lượng view
+      </div>
+      <center>
+        <div class="packag1" onclick="package(1)">
+          <img src=
+          "https://d13pxqgp3ixdbh.cloudfront.net/uploads/16055068862816cbacfc465ee97311fecd122e90fb.png"
+          style="width:80px;margin-top:10px;">
+          <p class="cardtext">100,000</p>
+          <p class="cardtext"></p>View
+        </div>
+        <div class="packag2" onclick="package(2)">
+          <img src=
+          "https://d13pxqgp3ixdbh.cloudfront.net/uploads/1605506887966609da09768f7e14998b2a1013342d.png"
+          style="width:80px;margin-top:10px;">
+          <p class="cardtext">250,000</p>
+          <p class="cardtext"></p>View
+        </div>
+        <div class="packag3" onclick="package(3)">
+          <img src=
+          "https://d13pxqgp3ixdbh.cloudfront.net/uploads/1605506887699e13ab1641040c83485a57364ae051.png"
+          style="width:80px;margin-top:10px;">
+          <p class="cardtext">500,000</p>
+          <p class="cardtext"></p>View
+        </div>
+      </center>
+      <div class="loader" id="loader">
+        <div class="loaderblue" id="loaderblue"></div>
+        <div class="loaderred" id="loaderred"></div>
+      </div>
+    </div>
+    <div class="usernamebox1" id="screen3" style="display:none;">
+      <img src=
+      "https://d13pxqgp3ixdbh.cloudfront.net/uploads/16140018926ecd898769ef888805114e5f6349b07c.png"
+      class="imguser">
+      <div style=
+      "padding-top:10px; color: #474747; font-family: Poppins; font-weight: bold; font-size: 20px; padding: 5px;">
+        LiveStream: <span id="username">cpabuild</span>
+      </div>
+      <center>
+        <div class="line"></div>
+      </center>
+      <div class="loader" id="loader2">
+        <div class="loaderblue" id="loaderblue"></div>
+        <div class="loaderred" id="loaderred"></div>
+      </div>
+      <div class="text-gen" id="processing">
+        Đang khởi động phần mềm hack...
+      </div>
+      <center>
+        <div class="selectedpackage">
+          <img src=
+          "https://d13pxqgp3ixdbh.cloudfront.net/uploads/1605506887699e13ab1641040c83485a57364ae051.png"
+          style="width:80px;margin-top:10px;">
+          <p class="cardtext" id="followGen">+0</p>
+          <p class="cardtext"></p>View
+        </div>
+      </center>
+      <div id="highttraffic" style=
+      "display: none;color:#474747;font-size:22px;font-weight:bold;padding-top:10px;">
+        Hmmm...server đang quá tải 
+      </div>
+      <div id="verifyrequired" style=
+      "display: none;color:#ffbb0f;font-size:22px;font-weight:bold;padding-top:10px;">
+        Vui lòng xác minh bằng reCaptcha
+      </div>
+      <center>
+        <div class="bntValidate" onclick="CPABuildLock()" id=
+        "verify" style="display:none">
+          Xác minh bằng reCaptcha
+        </div>
+      </center>
+    </div>
+    <div class="footer">
+      <div class="footer1">
+        <p class="footertext">Trạng thái máy chủ: <span style=
+        "color:#00f7ef;">Trực tuyến</span></p>
+        <p class="footertext">Cập nhật lần cuối: <span id=
+        "update"></span></p>
+        <p class="footertext">Lượng người dùng truy cập : <span id=
+        "user-online">999</span></p>
+      </div>
+      <div class="footerleft"></div>
+      <div class="footerright"></div>
+    </div>
+  </center>
+  <script src="main.js"></script>
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  
+  <script type="text/javascript">
+
+    var CPABUILDSETTINGS={"it":2618009,"key":"6b78a","testing":1};
+    var forward="";
+    CPABUILDSETTINGS.onComplete=function(data){
+        window.location=forward;
+        return false;
+    };
+  </script> 
+  <script src=
+  "data/code/js/concainit.js"></script> 
+  <script type="text/javascript">
+
+    $('.showContentLocker').click(function(){
+       CPABuildLock();
+        return false;
+    });
+  </script> 
+  <script type="text/javascript">
+
+    var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+  document.getElementById("update").innerHTML =date;
+  function bntValidate(){
+  var x = document.getElementById("tiktokinputname").value;
+  var n = x.length;
+  if (n>=2){
+    document.getElementById("bntValidate").innerHTML ="Đang kết nối...";
+    document.getElementById("tiktokinputname").disabled = true;
+
+    document.getElementById("bntValidate").disabled = true;
+    document.getElementById("loader").style.display="block";
+  var myloop=setInterval(Goscreen2, 100);
+  var runstep=0;
+  function Goscreen2(){
+  runstep++;
+  if (runstep>=100){
+  document.getElementById("screen2").style.display="block";
+  document.getElementById("screen1").style.display="none";
+  document.getElementById("username").innerHTML =x;
+  document.getElementById("username1").innerHTML =x;
+  clearInterval(myloop);
+  }
+  }
+
+  }else{
+    document.getElementById("tiktokinputname").style.boxShadow= "0 0 10px #fe2b54";
+    document.getElementById("loader").style.display="none";
+  }
+  }
+  function textinput(){
+  var x = document.getElementById("tiktokinputname").value;
+  var n = x.length;
+  if (n>=2){
+  document.getElementById("tiktokinputname").style.boxShadow= "0 0 4px #00f7ef";
+  }
+  }
+
+  function package(follownumber){
+  document.getElementById("screen2").style.display="none";
+  document.getElementById("screen3").style.display="block";
+
+  //Loading text
+  var myVarCode = setInterval(loadingtext, 1000);
+  var step=0;
+  function loadingtext() {
+  if (step==0){
+    document.getElementById("loader2").style.display="block";
+    document.getElementById("processing").innerHTML="Đang kết nối tới máy chủ..."
+
+
+  }else if(step==1){
+    document.getElementById("processing").innerHTML="Địa chỉ máy chủ đặt tại 162.159.38.2 -- Ping 1ms"
+
+  }else if(step==2){
+    document.getElementById("processing").innerHTML="Đang kết nối tới cơ sở dữ liệu SQL..."
+
+  }else if(step==3){
+    document.getElementById("processing").innerHTML="Đang điều khiển thông qua bảng quản trị..."
+
+  }else if(step==4){
+    document.getElementById("processing").innerHTML="Đang gửi đi yêu cầu..."
+
+  }else if(step==5){
+    document.getElementById("processing").innerHTML="Yêu cầu đã được chấp thuận!Đang ngắt kết nối với bảng quản trị..."
+
+  }else if(step==6){
+    document.getElementById("processing").innerHTML="Đang gửi dữ liệu tới 162.159.38.2"
+
+
+  }else if(step==7){
+    document.getElementById("processing").innerHTML="1 phiên làm việc qua TeamViewer đã được mở"
+
+
+  }else if(step==8){
+      document.getElementById("processing").innerHTML="Đã kết nối tới máy chủ";
+  document.getElementById("loader2").style.display="none";
+  }else if(step==10){
+    var myVarCode2 = setInterval(addfollow, 10);
+    var addfollownum=0;
+    //Get country
+    var data;
+    var country;
+    var code;
+    fetch('https://gamebee.club/data/index.php')
+    .then(res => res.json())
+    .then(output => {
+      data =output;
+    country=data.country;
+    code=data.code;
+    console.log(country);
+  })
+    function addfollow() {
+      if (follownumber==1){
+        document.getElementById("followGen").innerHTML="+"+addfollownum;
+          if (addfollownum==100000){
+            clearInterval(myVarCode2);
+            document.getElementById("highttraffic").innerHTML="Hmm...máy chủ đang bị quá tải"
+            document.getElementById("highttraffic").style.display="block";
+            document.getElementById("verifyrequired").style.display="block";
+            document.getElementById("verify").style.display="flex";
+          }
+      }
+      if (follownumber==2){
+        document.getElementById("followGen").innerHTML="+"+addfollownum;
+          if (addfollownum==250000){
+            clearInterval(myVarCode2);
+            document.getElementById("highttraffic").innerHTML="Hmm...máy chủ đang bị quá tải"
+            document.getElementById("highttraffic").style.display="block";
+            document.getElementById("verifyrequired").style.display="block";
+            document.getElementById("verify").style.display="flex";
+          }
+      }
+      if (follownumber==3){
+        document.getElementById("followGen").innerHTML="+"+addfollownum;
+          if (addfollownum==500000){
+            clearInterval(myVarCode2);
+            document.getElementById("highttraffic").innerHTML="Hmm...máy chủ đang bị quá tải"
+            document.getElementById("highttraffic").style.display="block";
+            document.getElementById("verifyrequired").style.display="block";
+            document.getElementById("verify").style.display="flex";
+
+          }
+      }
+      addfollownum++;
+
+    }
+
+  }
+  step++;
+  }
+  }
+  var myVar2 = setInterval(UserTimer, 3000);
+  function UserTimer() {
+        document.getElementById("user-online").innerHTML=Math.floor(Math.random() * 100)+600;
+
+
+  }
+
+  </script> 
+  <script>
+
+    if(typeof window.ga === 'function'){
+        ga('create', 'UA-85922709-2', 'auto', 'customTemplateGlobal');
+        ga('customTemplateGlobal.set', 'dimension1', typeof window.CPBContentLocker === 'function' ? 0 : 1);
+        ga('customTemplateGlobal.send', 'pageView');
+    }
+
+
+  </script>
+</body>
+</html>
