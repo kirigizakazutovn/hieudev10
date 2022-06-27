@@ -1,4 +1,5 @@
 #EXTM3U bởi nghuyhieu2810@mail.folody.xyz
+#EXTM3U tvg-url="https://hieudev10.vercel.app/stream/iptv/config.xml" 
 
 #EXTINF:-1 group-title="VTV" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_vtv1-hd_150173500659.jpg",VTV1 HD
 rtp://@239.12.251.207:5000
