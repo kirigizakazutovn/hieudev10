@@ -229,11 +229,11 @@ http://stream.jinjiang.tv/1/sd/live.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Quốc Tế",南京十八
 http://live.nbs.cn/channels/njtv/sbpd/m3u8:500k/live.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/800px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="Quốc Tế",Tokyo MX1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/800px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="Quốc Tế - Nhật Bản (tổng hợp)",Tokyo MX1
 https://movie.mcas.jp/mcas/smil:mx1_prod.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/800px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="Quốc Tế",Tokyo MX2
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/800px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="Quốc Tế - Nhật Bản (tổng hợp)",Tokyo MX2
 https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://dbbovgtu2bg0x.cloudfront.net/uploads/program/main_image/749853303/app_app_wether_news.png" group-title="Quốc Tế",Weather News
+#EXTINF:-1 tvg-logo="https://dbbovgtu2bg0x.cloudfront.net/uploads/program/main_image/749853303/app_app_wether_news.png" group-title="Quốc Tế - Nhật Bản (tổng hợp)",Weather News
 http://movie.mcas.jp/mcas/smil:wn1.smil/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9VXxnlo.png" group-title="Quốc Tế",ウェザーニュース
 http://movie.mcas.jp/mcas/wn1_2/master.m3u8A
@@ -349,7 +349,7 @@ http://symc-cdn.violin.co.th:1935/tndedge/whitechannel/chunklist.m3u8
 http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
 #EXTINF:-1 group-title="Quốc Tế" tvg-logo="https://i.imgur.com/4fFMlVq.png",Карусель 
 http://185.161.224.216/dash/Karusel_SD.ism/playlist.mpd
-#EXTINF:-1 group-title="Quốc Tế" tvg-logo="https://i.imgur.com/chT8xP5.png",Nick Junior 
+#EXTINF:-1 group-title="Quốc Tế - Thiếu Nhi" tvg-logo="https://i.imgur.com/chT8xP5.png",Nick Junior 
 http://185.161.224.216/dash/Nick_JR_SD.ism/playlist.mpd
 #EXTINF:-1 tvg-id="spohd" group-title="Quốc Tế" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxJJeghunEO2o9cOdGJuETXP_UN1VgHgWTQ&usqp=CAU",SPO TV
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/playlist.m3u8
