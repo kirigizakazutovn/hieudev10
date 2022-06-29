@@ -150,6 +150,12 @@ https://livecdn.fptplay.net/sdb/htvcphunu_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="htvcpn" group-title="HTVC" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/2f/HTVC_Phim_2014.png/revision/latest/scale-to-width-down/200?cb=20210131021645&path-prefix=vi",HTVC Phim HD
 https://vips-livecdn.fptplay.net/hda2/htvcmoviehd_vhls.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="itday" group-title="Quốc Tế" tvg-logo="https://blog.ourcrowd.com/wp-content/uploads/2019/07/indiatoday-logo.jpg",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/indiatoday_2/chunklist.m3u8
+#EXTINF:-1 tvg-id="rai3hd" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Rai_3_HD_Logo.svg/1200px-Rai_3_HD_Logo.svg.png",Rai3
+http://wzstreaming.rai.it/TVlive/liveStream/.m3u8
+#EXTINF:-1 tvg-id="trt_world" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/TRT_World_logo.svg/2560px-TRT_World_logo.svg.png",TRT World
+https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="hkmv" group-title="Quốc Tế - Phim Tổng Hợp" tvg-logo="https://hkfilm.com.vn/wp-content/uploads/2013/04/HKfilm-Logo.jpg",HK Film
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 tvg-id="filmphd" group-title="Quốc Tế - Phim Tổng Hợp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c4/FILM%2B_logo_2014_Hungary.png",Film+ HD
