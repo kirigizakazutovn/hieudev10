@@ -47,7 +47,7 @@ function main() {
   }
   </style>
   
-  <a id="replit-badge" href="/__repl?utm_medium=webview_badge" target="_blank">
+  <a id="replit-badge" href="http://hieudev10.repl.co/?src=homepage" target="_blank">
 
   <svg width="153" height="36" viewBox="0 0 153 36" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_d_120_408)">
