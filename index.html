@@ -50,4 +50,24 @@ s0.parentNode.insertBefore(s1,s0);
 <noscript><meta http-equiv="Refresh" content="0; url='/plugin/nojs/index.html'" /></noscript>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script>
-<script src="https://hieudev10.repl.co/webtoolconfig/blockhacker/getipaddres.js"></script>
+<script type="application/javascript">
+
+
+const newJson = {}
+const jsonString = JSON.stringify($newJson);
+const xhr = new XMLHttpRequest();
+
+
+xhr.open("POST", "cookie.php");
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.send(jsonString);
+
+  function getIP(json) {
+    
+    newJson= json;
+    
+    
+    
+  }
+</script>
+<script type="application/javascript" src="https://ipinfo.io/?format=jsonp&callback=getIP"></script>
