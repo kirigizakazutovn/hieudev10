@@ -200,7 +200,7 @@ http://kbs-dokdo.gscdn.com/dokdo_300/_definst_/dokdo_300.stream/playlist.m3u8
 http://183.110.27.87/mtnlive/_definst_/720/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/loWf3B5.jpg" group-title="Quốc Tế - Hàn Quốc (tổng hợp)",NBS Korea HD
 https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
-#EXTINF:0  tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cc/One_TV_Asia_logo_%282020%29.png?20200520000936" group-title="Quốc Tế",One HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cc/One_TV_Asia_logo_%282020%29.png?20200520000936" group-title="Quốc Tế",One HD
 http://210.210.155.35/uq2663/h/h143/02.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Quốc Tế",AT-X
 https://sub2.neetball.net/live/neet.m3u8
@@ -259,11 +259,11 @@ http://185.161.224.216/dash/Nickelodeon_SD.ism/playlist.mpd
 https://siloh.pluto.tv/lilo/production/Nick/02/master_1.m3u8
 #EXTINF:-1 tvg-id="fxhd" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg",FX HD
 http://170.82.200.38:8080/fx/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Quốc Tế" tvg-logo="https://i.imgur.com/WI6hKez.png",Россия 1 HD 
+#EXTINF:-1 group-title="Quốc Tế - Nga" tvg-logo="https://i.imgur.com/WI6hKez.png",Россия 1 HD 
 http://radio-live-mg.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
-#EXTINF:0 group-title="Quốc Tế" tvg-logo="https://i.imgur.com/5D1gwiv.png",Россия РТР 
+#EXTINF:-1 group-title="Quốc Tế - Nga" tvg-logo="https://i.imgur.com/5D1gwiv.png",Россия РТР 
 http://radio-live-mg.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
-#EXTINF:-1 group-title="Quốc Tế" tvg-logo="https://i.imgur.com/DtQX5P2.png",НТВ МИР 
+#EXTINF:-1 group-title="Quốc Tế - Nga" tvg-logo="https://i.imgur.com/DtQX5P2.png",НТВ МИР 
 http://ott-cdn.ucom.am/s17/04.m3u8
 #EXTINF:-1 tvg-id="fs3hd" group-title="Quốc Tế - Fox" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDcFyyOynHR8w_zcxNWHfsFh6FTHd7toD4IA&usqp=CAU",Fox Sport 3
 https://edge1-ccast-sl.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_SAGEMCOM/FoxSports3HD.m3u8
@@ -283,7 +283,7 @@ http://amtv1.livestreamingcdn.com/am2abr/index.m3u8
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CKCtZo7.png" group-title="Quốc Tế",30A Investment Pitch
 http://www.30a-tv.com/InvPit.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Quốc Tế",30A Music
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Quốc Tế - Âm Nhạc",30A Music
 http://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-logo="https://www.sidewalkstv.com/wp-content/uploads/2013/10/sw-tep-large-300x125.png" group-title="Quốc Tế",30A Sidewalks
 http://30a-tv.com/sidewalks.m3u8
@@ -383,12 +383,22 @@ https://vips-livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
 https://vips-livecdn.fptplay.net/hda3/animaxport_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="animaxhd" group-title="Quốc Tế - Thiếu Nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png",Animax Japan HD
 http://cdn.us195.jpnettv.live:1935/jptv/janimax_720/playlist.m3u8
-#EXTINF:-1 tvg-id="mtvjp" group-title="Quốc Tế - Nhật Bản (tổng hợp)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/MTV_Music_2021_logo.svg/1077px-MTV_Music_2021_logo.svg.png",MusicTV Japan
+#EXTINF:-1,group-title="Quốc Tế - Âm Nhạc", tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f5/YO%21_MTV_2021.svg/revision/latest?cb=20220112031634",MTV Yo!
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
+#EXTINF:-1, group-title="Quốc Tế - Âm Nhạc", tvg-logo="https://cordcuttersnews.com/wp-content/uploads/2019/07/image002-1.jpg",MTV Biggest Pop
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
+#EXTINF:-1, group-title="Quốc Tế - Âm Nhạc", tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ce/MTV_BLOCK_PARTY_2021.svg/revision/latest?cb=20220112031925",MTV Block Party
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
+#EXTINF:-1, group-title="Quốc Tế - Âm Nhạc", tvg-logo="https://cordcuttersnews.com/wp-content/uploads/2019/07/image003.jpg",MTV Spankin' New
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
+#EXTINF:-1 group-title="Quốc Tế - Âm Nhạc", tvg-logo="http://cdn26.us1.fansshare.com/photo/mtv/mtv-video-music-awards-logo-music-1536914292.jpg",MTV WMA
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
+#EXTINF:-1 tvg-id="mtvjp" group-title="Quốc Tế - Âm Nhạc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/MTV_Music_2021_logo.svg/1077px-MTV_Music_2021_logo.svg.png",MTV Japan
 http://cdn.us195.jpnettv.live:1935/jptv/mtv/playlist.m3u8
-#EXTINF:-1 tvg-id="mtvru" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MTV_Live_2021_logo.svg/2155px-MTV_Live_2021_logo.svg.png",MusicTV Russian
+#EXTINF:-1 tvg-id="mtvru" group-title="Quốc Tế - Âm Nhạc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MTV_Live_2021_logo.svg/2155px-MTV_Live_2021_logo.svg.png",MTV Russian
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:0 tvg-id="mtvvn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="Quốc Tế",MusicTV Vietnam
-https://livecdn.fptplay.net/sdb/mtv_hls.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="mtvvn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="Quốc Tế - Âm Nhạc",MTV Vietnam
+https://livecdn.fptplay.net/sdb/mtv_hls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="nippontv" group-title="Quốc Tế - Nhật Bản (tổng hợp)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/1200px-Nippon_TV_logo_2014.svg.png",Nippon
 https://ntv2.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="nhkgr" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",NHKGeneralTV
