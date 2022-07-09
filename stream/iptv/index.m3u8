@@ -606,6 +606,8 @@ http://113.163.189.104:8135/liveeventstv2.m3u8
 https://livecdn.fptplay.net/sdc/sonla_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1564368053/cmc_new/img.live_channel/0/0/0/0/71.jpg",Tây Ninh
 https://livecdn.fptplay.net/sda/tayninhhd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1564368053/cmc_new/img.live_channel/0/0/0/0/71.jpg",Tây Ninh S2
+http://202.43.109.142:1935/ttv11/tntv/chunklist.m3u8
 #EXTINF:-1 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1597486151/cmc_new/img.live_channel/0/0/0/0/65.jpg",Thái Bình
 https://livecdn.fptplay.net/sda/thaibinh_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1545704085/cmc_new/img.live_channel/0/0/0/0/66.jpg",Thái Nguyên
