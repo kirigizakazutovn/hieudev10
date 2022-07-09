@@ -492,6 +492,8 @@ https://livecdn.fptplay.net/sdc/bacninh_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sdc/bentre_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1545704085/cmc_new/img.live_channel/0/0/0/0/25.jpg",Bình Định
 https://livecdn.fptplay.net/sda/binhdinh_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1545704085/cmc_new/img.live_channel/0/0/0/0/25.jpg",Bình Định S2
+http://truyenhinhbinhdinhonline.dynns.com:8086/live.m3u8
 #EXTINF:-1  group-title="Địa Phương" tvg-logo="https://rsstv.gviet.vn/sctv/159/130/1581298778597.png",Bình Dương 9 - An Viên HD
 https://livecdn.fptplay.net/sdc/btv9_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-logo="ttp://www.xemtvtructuyen.net/ima/binhduong4.png" group-title="Địa Phương",Bình Dương 4 - iMovieTV 
